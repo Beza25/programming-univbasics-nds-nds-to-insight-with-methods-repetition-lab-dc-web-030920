@@ -31,16 +31,16 @@ def list_of_directors(source)
   # pp source.length
   directors = []
   
-  # source.each { |name|
-  #   directors << 
-  # }
+  source.each { |block|
+    directors << block[:names]
+  }
   
-  row_index = 0 
-  while row_index < source.length do
-    pp source[row_index][:names]
-    directors << source[row_index][:names]
-    row_index += 1
-  end
+  # row_index = 0 
+  # while row_index < source.length do
+  #   pp source[row_index][:names]
+  #   directors << source[row_index][:names]
+  #   row_index += 1
+  # end
   puts directors
   directors
   
