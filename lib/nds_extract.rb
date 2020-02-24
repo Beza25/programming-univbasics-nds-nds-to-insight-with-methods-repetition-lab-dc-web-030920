@@ -33,7 +33,7 @@ def list_of_directors(source)
   
   source.each { |block|
     pp block
-    directors << block[:names][:name]
+    directors << block[:name]
   }
   
   # row_index = 0 
