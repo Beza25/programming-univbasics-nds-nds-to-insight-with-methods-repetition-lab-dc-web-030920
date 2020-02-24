@@ -28,7 +28,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  pp source.length
+  # pp source.length
   directors = []
   
   # source.each { |name|
@@ -37,6 +37,7 @@ def list_of_directors(source)
   
   row_index = 0 
   while row_index < source.length do
+    pp source[row_index][:names]
     directors << source[row_index][:names]
     row_index += 1
   end
