@@ -32,6 +32,7 @@ def list_of_directors(source)
   directors = []
   
   source.each { |block|
+    pp block
     directors << block[:names]
   }
   
