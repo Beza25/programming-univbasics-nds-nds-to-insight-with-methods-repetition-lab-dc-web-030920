@@ -36,13 +36,6 @@ def list_of_directors(source)
     directors << block[:name]
   }
   
-  # row_index = 0 
-  # while row_index < source.length do
-  #   pp source[row_index][:names]
-  #   directors << source[row_index][:names]
-  #   row_index += 1
-  # end
-  puts directors
   directors
   
   # Write this implementation
