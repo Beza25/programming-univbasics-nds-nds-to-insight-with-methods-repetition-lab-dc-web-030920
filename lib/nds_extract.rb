@@ -28,7 +28,7 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  # learpp source
+  # pp source
   directors = []
   
   # source.each { |name|
