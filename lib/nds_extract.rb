@@ -4,7 +4,7 @@ require_relative './directors_database'
 def directors_totals(source)
   result = {}
   director_index = 0
-  # pp  source
+   pp  source
   while director_index < source.size do
     director = source[director_index]
     # pp director
@@ -28,8 +28,13 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  
+  pp source
   directors = []
+  
+  # source.each { |name|
+  #   directors << 
+  # }
+  
   row_index = 0 
   while row_index < source.length do
     directors << source[:names]
